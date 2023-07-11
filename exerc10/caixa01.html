@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        h1{
+            text-align: center;
+            
+        }
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        nav{
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 2px 2px 1px black;
+        }
+        a{
+            text-decoration: none;
+        }
+        p > a:hover{
+            color: azure;
+        }
+
+        nav>a{
+            text-decoration: none;
+            color: white;
+            font-weight: normal;
+            margin-right: 30px;
+            
+        }
+
+        nav >a:hover{
+        text-decoration: underline;
+        color: blue;
+        font-weight: bold;
+        }
+
+        main{
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article>aside{
+            background-color: rgb(165, 165, 165);
+        }
+        footer{
+            background-color: black;
+            border-radius: 10px;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias"></section>
+        <article>
+            <h2>Notícias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ipsa voluptates quisquam quos nemo laboriosam ipsam labore nulla eius ad voluptatum alias, amet velit porro, error reprehenderit, libero asperiores facere.</p>
+            <aside>
+                <p>Artigo escrito por <a href="https://instagram.com/stefanodahmer">Stefano Fiorioli Dahmer</a></p>
+            </aside>
+        </article>
+    </main>
+    <footer>
+        <p>Desenvolvido por <a href="https://youtube/cursoemvideo.cursoemvideo">Curso em vídeo</a></p>
+    </footer>
+</body>
+</html>
